@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url" content="http://mkjy1108.dothome.co.kr/gimpo">
+    <meta property="og:title" content="김포한가람초등학교 - by MK">
+    <meta property="og:type" content="웹사이트">
+    <meta property="og:image" content="http://mkjy1108.dothome.co.kr/gimpo/images/logo.png">
+    <meta property="og:description" content="김포한가람초등학교 홈페이지입니다.">
+    <title>김포한가람초등학교 - by MK</title>
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/subBasic.js"></script>
+</head>
+<body>
+    <!-- skip menu -->
+    <ul class="skipMenu">
+        <li><a href="#skipNav">메인메뉴 바로가기</a></li>
+        <li><a href="#skipContainer">본문 바로가기</a></li>
+    </ul>
+    <!-- Header -->
+    <header>
+        <div class="headerTop">
+            <div class="innerBox clearFIx">
+                <ul class="gnb">
+                    <li><a href="login.html">로그인</a></li>
+                    <li><a href="continue.html">회원가입</a></li>
+                    <li><a href="continue.html">사이트맵</a></li>
+                </ul>
+                <div class="search">
+                    <input type="text" name="search" id="searchWindow">
+                    <a href="continue.html"><i class="fas fa-search"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="headerBottom">
+            <div id="mobileMenu">
+                <div id="mobileTitle">
+                    <ul class="mGnb clearFIx">
+                        <li><a href="login.html">로그인</a></li>
+                        <li><a href="continue.html">회원가입</a></li>
+                    </ul>
+                    <div class="mobileClose">
+                        <a href="#void"><img src="images/mobile_close.png" alt=""></a>
+                    </div>
+                    <p class="mTitle">김포한가람초등학교<br>홈페이지에 오신 것을 환영합니다!</p>
+                    <div class="mSearch">
+                        <input type="text" name="search" id="mSearchWindow" placeholder="검색어를 입력해주세요">
+                        <!-- <span class="sInnerText">검색어를 입력해주세요</span> -->
+                        <a href="continue.html"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+                <div id="mNav">
+                    <ul class="mMainMenu">
+                        <li class="active"><a href="#void">학교소개</a></li>
+                        <li><a href="#void">어울마당</a></li>
+                        <li><a href="#void">학습마당</a></li>
+                        <li><a href="#void">방과후마당</a></li>
+                        <li><a href="#void">알림마당</a></li>
+                    </ul>
+                    <ul class="mobileNav">
+                        <li>
+                            <a href="continue.html">학교소개</a>
+                            <ul class="mSubMenu">
+                                <li><a href="continue.html">학교장 인사말</a></li>
+                                <li><a href="continue.html">학교 연혁/현황</a></li>
+                                <li><a href="continue.html">교육목표</a></li>
+                                <li><a href="continue.html">학교혁신</a></li>
+                                <li><a href="continue.html">학교재정공개</a></li>
+                                <li><a href="continue.html">한가람 갤러리</a></li>
+                                <li><a href="map.html">오시는 길</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="continue.html">어울마당</a>
+                            <ul class="mSubMenu">
+                                <li><a href="continue.html">학생마당</a></li>
+                                <li><a href="continue.html">학부모마당</a></li>
+                                <li><a href="continue.html">선생님마당</a></li>
+                                <li><a href="continue.html">알림마당</a></li>
+                                <li><a href="continue.html">제안마당</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="continue.html">학습마당</a>
+                            <ul class="mSubMenu">
+                                <li><a href="continue.html">주간학습</a></li>
+                                <li><a href="continue.html">책마루 도서관</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="continue.html">방과후마당</a>
+                            <ul class="mSubMenu">
+                                <li><a href="continue.html">돌봄교실</a></li>
+                                <li><a href="continue.html">방과후학습</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="continue.html">알림마당</a>
+                            <ul class="mSubMenu">
+                                <li><a href="continue.html">공지사항</a></li>
+                                <li><a href="continue.html">보건소식</a></li>
+                                <li><a href="continue.html">자율체육</a></li>
+                                <li><a href="continue.html">정보공개</a></li>
+                                <li><a href="continue.html">민원Q&A</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="mMainMenuBg"></div>
+                </div>
+            </div>
+            <div class="subBg"></div>
+            <div class="innerBox clearFIx">
+                <h1 class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="김포한가람초등학교Logo">
+                    </a>
+                </h1>
+                <div class="mHamBtn">
+                    <a href="#void"><i id="mMenu" class="fas fa-bars"></i></a>
+                </div>
+                <nav>
+                    <ul id="nav">
+                        <li>
+                            <a href="continue.html">학교소개</a>
+                            <ul class="subMenu">
+                                <li><a href="continue.html">학교장 인사말</a></li>
+                                <li><a href="continue.html">학교 연혁/현황</a></li>
+                                <li><a href="continue.html">교육목표</a></li>
+                                <li><a href="continue.html">학교혁신</a></li>
+                                <li><a href="continue.html">학교재정공개</a></li>
+                                <li><a href="continue.html">한가람 갤러리</a></li>
+                                <li><a href="map.html">오시는 길</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="continue.html">어울마당</a>
+                            <ul class="subMenu">
+                                <li><a href="continue.html">학생마당</a></li>
+                                <li><a href="continue.html">학부모마당</a></li>
+                                <li><a href="continue.html">선생님마당</a></li>
+                                <li><a href="continue.html">알림마당</a></li>
+                                <li><a href="continue.html">제안마당</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="continue.html">학습마당</a>
+                            <ul class="subMenu">
+                                <li><a href="continue.html">주간학습</a></li>
+                                <li><a href="continue.html">책마루 도서관</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="continue.html">방과후마당</a>
+                            <ul class="subMenu">
+                                <li><a href="continue.html">돌봄교실</a></li>
+                                <li><a href="continue.html">방과후학습</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="continue.html">알림마당</a>
+                            <ul class="subMenu">
+                                <li><a href="continue.html">공지사항</a></li>
+                                <li><a href="continue.html">보건소식</a></li>
+                                <li><a href="continue.html">자율체육</a></li>
+                                <li><a href="continue.html">정보공개</a></li>
+                                <li><a href="continue.html">민원Q&A</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="mobileMenuBg"></div>
+    <!-- Main Banner -->
+    <div class="mainBanner">
+        <div class="innerBox">
+            <div class="listBox">
+                <div class="homeBtn"><a href="index.html"><i class="fas fa-home"></i></a></div>
+                <div class="pageList">
+                    <a href="index.html">HOME</a>
+                    <div><i class="fas fa-chevron-right"></i></div>
+                    <a href="login.html">로그인</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Container -->
+    <section id="container">
+        <h2 class="blind">blind</h2>
+        <div class="loginWrap">
+            <div class="innerBox">
+                <div class="titleWrap">
+                    <p class="subTitle">김포한가람초등학교 홈페이지에<br>방문해주셔서 감사합니다.</p>
+                    <p class="mainTitle">로그인</p>
+                    <span class="bar"></span>
+                </div>
+                <div class="loginBox">
+                    <div class="inputWrap">
+                        <div class="idWrap">
+                            <i class="fas fa-sign-in-alt"></i>
+                            <input type="text" name="id" placeholder="아이디를 입력하세요" id="id">
+                        </div>
+                        <div class="pwWrap">
+                            <i class="fas fa-key"></i>
+                            <input type="password" name="password" placeholder="비밀번호를 입력하세요" id="pw">
+                        </div>
+                    </div>
+                    <div class="loginBtn"><a href="#void">Login</a></div>
+                    <ul class="joinLink">
+                        <li><a href="continue.html">회원가입</a></li>
+                        <li><a href="continue.html">아이디찾기</a></li>
+                        <li><a href="continue.html">비밀번호찾기</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="innerBox">
+            <p class="footLogo">
+                <img src="images/foot_logo.png" alt="푸터로고">
+            </p>
+            <div class="footCenter">
+                <ul class="footMenu">
+                    <li><a href="continue.html">개인정보처리방침</a></li>
+                    <li><a href="continue.html">이용약관</a></li>
+                    <li><a href="continue.html">이메일무단수집거부</a></li>
+                </ul>
+                <address>
+                    <p>(우 10071) 경기도 김포시 김포한강9로 115번길 57</p>
+                    <span>TEL:031-966-5345 FAX:031-966-5346</span>
+                    <span class="copyright">    
+                        Copyright&copy; 김포한가람초등학교 All Right Reserved.
+                    </span>
+                </address>
+            </div>
+            <div class="famSite">
+                <a href="#void">
+                    <span>주요사이트 바로가기</span>
+                    <img src="images/familySite_Up.png" alt="">
+                </a>
+                <ul class="family">
+                    <li><a href="continue.html">패밀리 사이트1</a></li>
+                    <li><a href="continue.html">패밀리 사이트2</a></li>
+                    <li><a href="continue.html">패밀리 사이트3</a></li>
+                    <li><a href="continue.html">패밀리 사이트4</a></li>
+                    <li><a href="continue.html">패밀리 사이트5</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url" content="http://mkjy1108.dothome.co.kr/gimpo">
+    <meta property="og:title" content="김포한가람초등학교 - by MK">
+    <meta property="og:type" content="웹사이트">
+    <meta property="og:image" content="http://mkjy1108.dothome.co.kr/gimpo/images/logo.png">
+    <meta property="og:description" content="김포한가람초등학교 홈페이지입니다.">
+    <title>김포한가람초등학교 - by MK</title>
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <!-- skip menu -->
+    <ul class="skipMenu">
+        <li><a href="#skipNav">메인메뉴 바로가기</a></li>
+        <li><a href="#skipContainer">본문 바로가기</a></li>
+    </ul>
+    <!-- Header -->
+    <header>
+        <div class="headerTop">
+            <div class="innerBox clearFIx">
+                <ul class="gnb">
+                    <li><a href="login.html">로그인</a></li>
+                    <li><a href="continue.html">회원가입</a></li>
+                    <li><a href="continue.html">사이트맵</a></li>
+                </ul>
+                <div class="search">
+                    <input type="text" name="search" id="searchWindow">
+                    <a href="#void"><i class="fas fa-search"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="headerBottom">
+            <div id="mobileMenu">
+                <div id="mobileTitle">
+                    <ul class="mGnb clearFIx">
+                        <li><a href="login.html">로그인</a></li>
+                        <li><a href="continue.html">회원가입</a></li>
+                    </ul>
+                    <div class="mobileClose">
+                        <a href="#void"><img src="images/mobile_close.png" alt=""></a>
+                    </div>
+                    <p class="mTitle">김포한가람초등학교<br>홈페이지에 오신 것을 환영합니다!</p>
+                    <div class="mSearch">
+                        <input type="text" name="search" id="mSearchWindow" placeholder="검색어를 입력해주세요">
+                        <a href="#void"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+                <div id="mNav">
+                    <ul class="mMainMenu">
+                        <li class="active"><a href="#void">학교소개</a></li>
+                        <li><a href="#void">어울마당</a></li>
+                        <li><a href="#void">학습마당</a></li>
+                        <li><a href="#void">방과후마당</a></li>
+                        <li><a href="#void">알림마당</a></li>
+                    </ul>
+                    <ul class="mobileNav">
+                        <li>
+                            <a href="continue.html">학교소개</a>
+                            <ul class="mSubMenu">
+                                <li><a href="continue.html">학교장 인사말</a></li>
+                                <li><a href="continue.html">학교 연혁/현황</a></li>
+                                <li><a href="continue.html">교육목표</a></li>
+                                <li><a href="continue.html">학교혁신</a></li>
+                                <li><a href="continue.html">학교재정공개</a></li>
+                                <li><a href="continue.html">한가람 갤러리</a></li>
+                                <li><a href="map.html">오시는 길</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="continue.html">어울마당</a>
+                            <ul class="mSubMenu">
+                                <li><a href="continue.html">학생마당</a></li>
+                                <li><a href="continue.html">학부모마당</a></li>
+                                <li><a href="continue.html">선생님마당</a></li>
+                                <li><a href="continue.html">알림마당</a></li>
+                                <li><a href="continue.html">제안마당</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="continue.html">학습마당</a>
+                            <ul class="mSubMenu">
+                                <li><a href="continue.html">주간학습</a></li>
+                                <li><a href="continue.html">책마루 도서관</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="continue.html">방과후마당</a>
+                            <ul class="mSubMenu">
+                                <li><a href="continue.html">돌봄교실</a></li>
+                                <li><a href="continue.html">방과후학습</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="continue.html">알림마당</a>
+                            <ul class="mSubMenu">
+                                <li><a href="continue.html">공지사항</a></li>
+                                <li><a href="continue.html">보건소식</a></li>
+                                <li><a href="continue.html">자율체육</a></li>
+                                <li><a href="continue.html">정보공개</a></li>
+                                <li><a href="continue.html">민원Q&A</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="mMainMenuBg"></div>
+                </div>
+            </div>
+            <div class="subBg"></div>
+            <div class="innerBox clearFIx">
+                <h1 class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="김포한가람초등학교Logo">
+                    </a>
+                </h1>
+                <div class="mHamBtn">
+                    <a href="#void"><i id="mMenu" class="fas fa-bars"></i></a>
+                </div>
+                <nav>
+                    <ul id="nav">
+                        <li>
+                            <a href="continue.html">학교소개</a>
+                            <ul class="subMenu">
+                                <li><a href="continue.html">학교장 인사말</a></li>
+                                <li><a href="continue.html">학교 연혁/현황</a></li>
+                                <li><a href="continue.html">교육목표</a></li>
+                                <li><a href="continue.html">학교혁신</a></li>
+                                <li><a href="continue.html">학교재정공개</a></li>
+                                <li><a href="continue.html">한가람 갤러리</a></li>
+                                <li><a href="map.html">오시는 길</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="continue.html">어울마당</a>
+                            <ul class="subMenu">
+                                <li><a href="continue.html">학생마당</a></li>
+                                <li><a href="continue.html">학부모마당</a></li>
+                                <li><a href="continue.html">선생님마당</a></li>
+                                <li><a href="continue.html">알림마당</a></li>
+                                <li><a href="continue.html">제안마당</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="continue.html">학습마당</a>
+                            <ul class="subMenu">
+                                <li><a href="continue.html">주간학습</a></li>
+                                <li><a href="continue.html">책마루 도서관</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="continue.html">방과후마당</a>
+                            <ul class="subMenu">
+                                <li><a href="continue.html">돌봄교실</a></li>
+                                <li><a href="continue.html">방과후학습</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="continue.html">알림마당</a>
+                            <ul class="subMenu">
+                                <li><a href="continue.html">공지사항</a></li>
+                                <li><a href="continue.html">보건소식</a></li>
+                                <li><a href="continue.html">자율체육</a></li>
+                                <li><a href="continue.html">정보공개</a></li>
+                                <li><a href="continue.html">민원Q&A</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="mobileMenuBg"></div>
+    <!-- Main Banner -->
+    <div class="mainBanner">
+        <ul class="slideBox clearFIx">
+            <li class="banner1">
+                <div class="cover"></div>
+                <img src="images/main_slide01.jpg" alt="메인이미지1">
+                <div class="innerBox">
+                    <div class="slideTxt">
+                        <p class="mainCopy">가족 든든 안심 하교길</p><span class="bar bar1"></span>
+                        <p class="subCopy">우리 아이들 <b>'함께'</b> 보호해주세요.</p>
+                    </div>
+                    <div class="moreBox">
+                        <a href="continue.html">
+                            <span>더보기</span>
+                            <img src="images/slide_moreBtn.png" alt="슬라이드 더보기">
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="banner2">
+                <div class="cover"></div>
+                <img src="images/main_slide02.jpg" alt="메인이미지2">
+                <div class="innerBox">
+                    <div class="slideTxt">
+                        <p class="mainCopy">맑은꿈 만들어가는</p><span class="bar bar2"></span>
+                        <p class="subCopy">김포<b>'한가람'</b>초등학교 입니다.</p>
+                    </div>
+                    <div class="moreBox">
+                        <a href="continue.html">
+                            <span>더보기</span>
+                            <img src="images/slide_moreBtn.png" alt="슬라이드 더보기">
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="banner3">
+                <div class="cover"></div>
+                <img src="images/main_slide03.jpg" alt="메인이미지3">
+                <div class="innerBox">
+                    <div class="slideTxt">
+                        <p class="mainCopy">코로나19 방역수칙!</p><span class="bar bar3"></span>
+                        <p class="subCopy">함께라면 <b>'이겨낼 수'</b> 있습니다.</p>
+                    </div>
+                    <div class="moreBox">
+                        <a href="continue.html">
+                            <span>더보기</span>
+                            <img src="images/slide_moreBtn.png" alt="슬라이드 더보기">
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="banner4">
+                <div class="cover"></div>
+                <img src="images/main_slide04.jpg" alt="메인이미지4">
+                <div class="innerBox">
+                    <div class="slideTxt">
+                        <p class="mainCopy">방과후 우리학교</p><span class="bar bar4"></span>
+                        <p class="subCopy">방과후 <b>'활동'</b>도 함께즐겨요!</p>
+                    </div>
+                    <div class="moreBox">
+                        <a href="continue.html">
+                            <span>더보기</span>
+                            <img src="images/slide_moreBtn.png" alt="슬라이드 더보기">
+                        </a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="innerBox">
+            <ul class="slideBtn">
+                <li class="active"><a href="#void"></a></li>
+                <li><a href="#void"></a></li>
+                <li><a href="#void"></a></li>
+                <li><a href="#void"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Container -->
+    <section id="container">
+        <h2 class="blind">blind</h2>
+        <section class="innerBox clearFix">
+            <div class="calendar clearFix">
+                <h3 class="blind">blind</h3>
+                <div class="yearBox">
+                    <div class="yearMonth">
+                        <div class="yearTxt"></div>
+                        <div class="monthList"></div>
+                    </div>
+                    <div class="monBtn">
+                        <a href="#void" class="mPrev"><img src="images/month_prev_arrow.png" alt="이전달"></a>
+                        <a href="#void" class="mNext"><img src="images/month_next_arrow.png" alt="다음달"></a>
+                    </div>
+                    <div class="calMore">
+                        <a href="continue.html">
+                            <span>전체 일정 보기</span>
+                            <img src="images/calen_moreBtn.png" class="calen_moreBtn" alt="">
+                            <img src="images/m_more_icon.png" class="m_calen_moreBtn" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="dayBox">
+                    <div class="dayList">
+                        <div class="day">
+                            <a href="#void">'jQuery 날짜 들어갈 영역'</a>
+                        </div>
+                    </div>
+                    <div class="scheList">
+                        <a href="#void">
+                            <span>&middot;신정 1.1</span>
+                            <span>&middot;돌봄교실 시작 1.12</span>
+                            <span>&middot;보건교육 1월중 예정</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="innerBox nni clearFix">
+            <h3 class="blind">blind</h3>
+            <div class="notiNicon">
+                <div id="noticeBox">
+                    <div class="notiTitle">
+                        <ul class="titleList clearFIx">
+                            <li><a href="#void">공지사항</a></li>
+                            <li><a href="#void">학교혁신</a></li>
+                            <li><a href="#void">정보공개</a></li>
+                            <li><a href="#void">민원Q&A</a></li>
+                        </ul>
+                    </div>
+                    <div class="noticeBox">
+                        <ul class="noticeList">
+                            <li>
+                                <a href="continue.html">
+                                    <span class="noticeTitle">[공지] 2022학년도 신입생 학습일지 제출기간안내 </span>
+                                    <span class="noticeText">2022학년도 신학기를 맞아 1학년 신입생들의 학습일지 제출기간에 대해 안내드립니다 20202학년도 학습일지 제출 기간은 2022년 2월19일 부터 2022년 3월18일 약 한 달간 진행되며 이후 2주간 추가 제출이 가능하오니 참고 부탁드립니다.</span>
+                                    <span class="noticeDay">2022.01.01</span>
+                                    <img src="images/notice_more.png" alt="공지더보기">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="continue.html">
+                                    <span class="noticeTitle">[공지] 코로나19 관련 방역활동지원 인력 채용 공고</span>
+                                    <span class="noticeText">김포한가람초등학교 코로나19 방역활동지원 인력 채용 계획을 아래와 같이 공고합니다. 1.채용기간 22년 3월 17일 부터 22년 7월까지 주 12시간, 총 224시간이며 총 22ㅅ기간을 학교계획에 의해 근무가 가능해야합니다.</span>
+                                    <span class="noticeDay">2022.01.01</span>
+                                    <img src="images/notice_more.png" alt="공지더보기">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="continue.html">
+                                    <span class="noticeTitle">[공지] 김포한가람초 기초학력 협력강사 모집 공고</span>
+                                    <span class="noticeText">2022학년도 김포한가람초등학교 기초학력 협력강사 모집을 다음과 같이 공고합니다. 신분 - 기간제 및 단시간근로자 보호 등에 관한 법률 제 2조(정의) 제 2항 및 [근로기준법] 제 2조 제 1항 제 9호에 따른 '단시간근로자'로서 계약기간 만료 후 고용관계 소멸</span>
+                                    <span class="noticeDay">2022.01.01</span>
+                                    <img src="images/notice_more.png" alt="공지더보기">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="continue.html">
+                                    <span class="noticeTitle">[공지] 김포한가람초 학교운영위원회 학부모위원 선출 공고</span>
+                                    <span class="noticeText">김포한가람초등학교 운영위원회규정에 의거하여 다음과 같이 김포한가람초등학교운영위원회 학부모위원 선출을 공고합니다. 1.입후보자격 : 본교 학부모로서 국가공무원법 제 33조 각호의 1에 해당되지 아니한자 2.장소 : 김포한가람초등학교 학부모위원선출관리위원회</span>
+                                    <span class="noticeDay">2022.01.01</span>
+                                    <img src="images/notice_more.png" alt="공지더보기">
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="schoolList">
+                            <li>
+                                <a href="continue.html">
+                                    <span class="noticeTitle">[학교혁신] 2022학년도 신입생 학습일지 제출기간을 맞아 전교생에게</span>
+                                    <span class="noticeText">2022학년도 신학기를 맞아 1학년 신입생들의 학습일지 제출기간에 대해 전달드리며 더불어 전교생들의</span>
+                                    <span class="noticeDay">2022.01.01</span>
+                                    <img src="images/notice_more.png" alt="공지더보기">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="continue.html">
+                                    <span class="noticeTitle">[학교혁신] 2022학년도 신입생 학습일지 제출기간을 맞아 전교생에게</span>
+                                    <span class="noticeText">2022학년도 신학기를 맞아 1학년 신입생들의 학습일지 제출기간에 대해 전달드리며 더불어 전교생들의</span>
+                                    <span class="noticeDay">2022.01.01</span>
+                                    <img src="images/notice_more.png" alt="공지더보기">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="continue.html">
+                                    <span class="noticeTitle">[학교혁신] 2022학년도 신입생 학습일지 제출기간을 맞아 전교생에게</span>
+                                    <span class="noticeText">2022학년도 신학기를 맞아 1학년 신입생들의 학습일지 제출기간에 대해 전달드리며 더불어 전교생들의</span>
+                                    <span class="noticeDay">2022.01.01</span>
+                                    <img src="images/notice_more.png" alt="공지더보기">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="continue.html">
+                                    <span class="noticeTitle">[학교혁신] 2022학년도 신입생 학습일지 제출기간을 맞아 전교생에게</span>
+                                    <span class="noticeText">2022학년도 신학기를 맞아 1학년 신입생들의 학습일지 제출기간에 대해 전달드리며 더불어 전교생들의</span>
+                                    <span class="noticeDay">2022.01.01</span>
+                                    <img src="images/notice_more.png" alt="공지더보기">
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="infoList">
+                            <li>
+                                <a href="continue.html">
+                                    <span class="noticeTitle">[안내말씀] 2022학년도 신입생 학습일지 제출기간을 맞아 전교생에게</span>
+                                    <span class="noticeText">2022학년도 신학기를 맞아 1학년 신입생들의 학습일지 제출기간에 대해 전달드리며 더불어 전교생들의</span>
+                                    <span class="noticeDay">2022.01.01</span>
+                                    <img src="images/notice_more.png" alt="공지더보기">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="continue.html">
+                                    <span class="noticeTitle">[안내말씀] 2022학년도 신입생 학습일지 제출기간을 맞아 전교생에게</span>
+                                    <span class="noticeText">2022학년도 신학기를 맞아 1학년 신입생들의 학습일지 제출기간에 대해 전달드리며 더불어 전교생들의</span>
+                                    <span class="noticeDay">2022.01.01</span>
+                                    <img src="images/notice_more.png" alt="공지더보기">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="continue.html">
+                                    <span class="noticeTitle">[안내말씀] 2022학년도 신입생 학습일지 제출기간을 맞아 전교생에게</span>
+                                    <span class="noticeText">2022학년도 신학기를 맞아 1학년 신입생들의 학습일지 제출기간에 대해 전달드리며 더불어 전교생들의</span>
+                                    <span class="noticeDay">2022.01.01</span>
+                                    <img src="images/notice_more.png" alt="공지더보기">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="continue.html">
+                                    <span class="noticeTitle">[안내말씀] 2022학년도 신입생 학습일지 제출기간을 맞아 전교생에게</span>
+                                    <span class="noticeText">2022학년도 신학기를 맞아 1학년 신입생들의 학습일지 제출기간에 대해 전달드리며 더불어 전교생들의</span>
+                                    <span class="noticeDay">2022.01.01</span>
+                                    <img src="images/notice_more.png" alt="공지더보기">
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="qnaList">
+                            <li>
+                                <a href="continue.html">
+                                    <span class="noticeTitle">[민원사항] 2022학년도 신입생 학습일지 제출기간을 맞아 전교생에게</span>
+                                    <span class="noticeText">2022학년도 신학기를 맞아 1학년 신입생들의 학습일지 제출기간에 대해 전달드리며 더불어 전교생들의</span>
+                                    <span class="noticeDay">2022.01.01</span>
+                                    <img src="images/notice_more.png" alt="공지더보기">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="continue.html">
+                                    <span class="noticeTitle">[민원사항] 2022학년도 신입생 학습일지 제출기간을 맞아 전교생에게</span>
+                                    <span class="noticeText">2022학년도 신학기를 맞아 1학년 신입생들의 학습일지 제출기간에 대해 전달드리며 더불어 전교생들의</span>
+                                    <span class="noticeDay">2022.01.01</span>
+                                    <img src="images/notice_more.png" alt="공지더보기">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="continue.html">
+                                    <span class="noticeTitle">[민원사항] 2022학년도 신입생 학습일지 제출기간을 맞아 전교생에게</span>
+                                    <span class="noticeText">2022학년도 신학기를 맞아 1학년 신입생들의 학습일지 제출기간에 대해 전달드리며 더불어 전교생들의</span>
+                                    <span class="noticeDay">2022.01.01</span>
+                                    <img src="images/notice_more.png" alt="공지더보기">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="continue.html">
+                                    <span class="noticeTitle">[민원사항] 2022학년도 신입생 학습일지 제출기간을 맞아 전교생에게</span>
+                                    <span class="noticeText">2022학년도 신학기를 맞아 1학년 신입생들의 학습일지 제출기간에 대해 전달드리며 더불어 전교생들의</span>
+                                    <span class="noticeDay">2022.01.01</span>
+                                    <img src="images/notice_more.png" alt="공지더보기">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="iconBox">
+                    <ul id="iconBtn">
+                        <li>
+                            <a href="continue.html">
+                                <img src="images/icon_school.svg" alt="학교소개">
+                                <span>학교소개</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="continue.html">
+                                <img src="images/icon_moni.svg" alt="주간학습">
+                                <span>주간학습</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="continue.html">
+                                <img src="images/icon_note.svg" alt="책마루도서관">
+                                <span>책마루도서관</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="continue.html">
+                                <img src="images/icon_cap.svg" alt="학생마당">
+                                <span>학생마당</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="continue.html">
+                                <img src="images/icon_search.svg" alt="학부모마당">
+                                <span>학부모마당</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="continue.html">
+                                <img src="images/icon_pen.svg" alt="선생님마당">
+                                <span>선생님마당</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="issBox">
+                <div class="issTitle">
+                    <a href="continue.html">교내이슈</a>
+                    <div class="issLive">
+                        <a href="#void" class="prevBtn">
+                            <img src="images/issue_prev.png" alt="이전이슈">
+                        </a>
+                        <a href="#void" class="playBtn">
+                            <img src="images/issue_pause.png" alt="이슈재생">
+                        </a>
+                        <a href="#void" class="nextBtn">
+                            <img src="images/issue_next.png" alt="다음이슈">
+                        </a>
+                    </div>
+                </div>
+                <ul class="issList">
+                    <li class="issLi1"><a href="continue.html"><img src="images/issue_banner01.jpg" alt="이슈배너1"></a></li>
+                    <li class="issLi2"><a href="continue.html"><img src="images/issue_banner02.jpg" alt="이슈배너2"></a></li>
+                    <li class="issLi3"><a href="continue.html"><img src="images/issue_banner03.jpg" alt="이슈배너3"></a></li>
+                    <li class="issLi4"><a href="continue.html"><img src="images/issue_banner04.jpg" alt="이슈배너4"></a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="innerBox iconBanner clearFix">
+            <h3 class="blind">blind</h3>
+            <div class="child">
+                <a href="continue.html">
+                    <span class="chSub">바빠도, 걱정말아요!</span>
+                    <span class="chTitle">돌봄 교실</span>
+                    <img src="images/icon_child.svg" alt="돌봄교실">
+                </a>
+                <a href="continue.html" class="iconMore">
+                    <span class="chMore">자세히 보기</span>
+                </a>
+            </div>
+            <div class="afSchool">
+                <a href="continue.html">
+                    <span class="chSub">방과후, 더 씩씩하게!</span>
+                    <span class="chTitle">방과후 학습</span>
+                    <img src="images/icon_boy.svg" alt="방과후교실">
+                </a>
+                <a href="continue.html" class="iconMore">
+                    <span class="chMore">자세히 보기</span>
+                </a>
+            </div>
+            <div class="meal">
+                <a href="continue.html">
+                    <span class="chSub">우리, 오늘뭐먹지?</span>
+                    <span class="chTitle">오늘의 식단</span>
+                    <img src="images/icon_rice.svg" alt="급식식단표">
+                </a>
+                <a href="continue.html" class="iconMore">
+                    <span class="chMore">자세히 보기</span>
+                </a>
+            </div>
+        </section>
+        <section class="gallery">
+            <h3 class="gallTitle">한가람 갤러리</h3>
+            <p class="gallSub">H A N G R A M G A L L E R Y</p>
+            <div class="imgBox">
+                <ul class="imgList clearFix">
+                    <li>
+                        <a href="continue.html">
+                            <img src="images/gall_slide01.jpg" alt="갤러리이미지1">
+                            <div>
+                                <span class="imgTitle scEvent">교내행사</span>
+                                <span class="subTitle">학생 자율공연 김포 한가람초등학교가 학생 자율공연을 개최하여</span>
+                                <div class="more">
+                                    <span class="moreBtn">view</span>
+                                    <img src="images/gallery_moreBtn.png" alt="갤러리 자세히보기">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="continue.html">
+                            <img src="images/gall_slide02.jpg" alt="갤러리이미지2">
+                            <div>
+                                <span class="imgTitle scEvent">교내행사</span>
+                                <span class="subTitle">2020한가람 예술제 개최! 김포한가람 한마음예술제가 성황리에</span>
+                                <div class="more">
+                                    <span class="moreBtn">view</span>
+                                    <img src="images/gallery_moreBtn.png" alt="갤러리 자세히보기">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="continue.html">
+                            <img src="images/gall_slide03.jpg" alt="갤러리이미지3">
+                            <div>
+                                <span class="imgTitle scInfo">학교소개</span>
+                                <span class="subTitle">김포 한가람 초등학교 홈페이지에 오신 것을 환영합니다.</span>
+                                <div class="more">
+                                    <span class="moreBtn">view</span>
+                                    <img src="images/gallery_moreBtn.png" alt="갤러리 자세히보기">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="continue.html">
+                            <img src="images/gall_slide04.jpg" alt="갤러리이미지4">
+                            <div>
+                                <span class="imgTitle study">학습활동</span>
+                                <span class="subTitle">김포 한가람 초등학교 야외체험학습 가을을 맞아 떠난 야외체험학습 현장을 소개합니다.</span>
+                                <div class="more">
+                                    <span class="moreBtn">view</span>
+                                    <img src="images/gallery_moreBtn.png" alt="갤러리 자세히보기">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="continue.html">
+                            <img src="images/gall_slide05.jpg" alt="갤러리이미지5">
+                            <div>
+                                <span class="imgTitle study">학습활동</span>
+                                <span class="subTitle">김포 한가람초등학교 아동 과학사운영 한가람초등학교가 경기도에서 운영하는 과학사운영학교로 선정되었습니다.</span>
+                                <div class="more"></div>
+                                <div class="more">
+                                    <span class="moreBtn">view</span>
+                                    <img src="images/gallery_moreBtn.png" alt="갤러리 자세히보기">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="continue.html">
+                            <img src="images/gall_slide06.jpg" alt="갤러리이미지6">
+                            <div>
+                                <span class="imgTitle scEvent">교내행사</span>
+                                <span class="subTitle">김포 한가람초등학교 컵스카우트 대원들이 한데모여 컵스카우트 한마당을 개최하였습니다.</span>
+                                <div class="more">
+                                    <span class="moreBtn">view</span>
+                                    <img src="images/gallery_moreBtn.png" alt="갤러리 자세히보기">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="continue.html">
+                            <img src="images/gall_slide07.jpg" alt="">
+                            <div>
+                                <span class="imgTitle scEvent">교내행사</span>
+                                <span class="subTitle">김포한가람초등학교는 행정안전부 지정 어린이 재난안전훈련 선도학교로 학생이 주도적으로 참여하는 체험형 안전 교육 사업을 지난달 3일부터 10일까지 실시했습니다.</span>
+                                <div class="more">
+                                    <span class="moreBtn">view</span>
+                                    <img src="images/gallery_moreBtn.png" alt="갤러리 자세히보기">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="continue.html">
+                            <img src="images/gall_slide08.jpg" alt="">
+                            <div>
+                                <span class="imgTitle scEvent">교내행사</span>
+                                <span class="subTitle">김포한가람초등학교에서는 학생, 학부모, 교사가 한데 모여 1박2일의 한마음 가족캠프로 단합과 화합의 시간을 마련했습니다.</span>
+                                <div class="more">
+                                    <span class="moreBtn">view</span>
+                                    <img src="images/gallery_moreBtn.png" alt="갤러리 자세히보기">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="continue.html">
+                            <img src="images/gall_slide09.jpg" alt="">
+                            <div>
+                                <span class="imgTitle scEvent">교내행사</span>
+                                <span class="subTitle">김포한가람초등학교는 월드비전에서 주최한 프로젝트에 참여, 13주차에 버금상을 수상하는 쾌거를 이루었습니다.</span>
+                                <div class="more">
+                                    <span class="moreBtn">view</span>
+                                    <img src="images/gallery_moreBtn.png" alt="갤러리 자세히보기">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="continue.html">
+                            <img src="images/gall_slide10.jpg" alt="">
+                            <div>
+                                <span class="imgTitle scEvent">교내행사</span>
+                                <span class="subTitle">김포한가람초등학교에서는 이번 엄마와 함께하는 체험학습을 통해 아이들이 더욱 편안한 체험학습을 즐길 수 있도록 했습니다.</span>
+                                <div class="more">
+                                    <span class="moreBtn">view</span>
+                                    <img src="images/gallery_moreBtn.png" alt="갤러리 자세히보기">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="innerBox">
+            <p class="footLogo">
+                <img src="images/foot_logo.png" alt="푸터로고">
+            </p>
+            <div class="footCenter">
+                <ul class="footMenu">
+                    <li><a href="continue.html">개인정보처리방침</a></li>
+                    <li><a href="continue.html">이용약관</a></li>
+                    <li><a href="continue.html">이메일무단수집거부</a></li>
+                </ul>
+                <address>
+                    <p>(우 10071) 경기도 김포시 김포한강9로 115번길 57</p>
+                    <span>TEL:031-966-5345 FAX:031-966-5346</span>
+                    <span class="copyright">    
+                        Copyright&copy; 김포한가람초등학교 All Right Reserved.
+                    </span>
+                </address>
+            </div>
+            <div class="famSite">
+                <a href="#void">
+                    <span>주요사이트 바로가기</span>
+                    <img src="images/familySite_Up.png" alt="">
+                </a>
+                <ul class="family">
+                    <li><a href="continue.html">패밀리 사이트1</a></li>
+                    <li><a href="continue.html">패밀리 사이트2</a></li>
+                    <li><a href="continue.html">패밀리 사이트3</a></li>
+                    <li><a href="continue.html">패밀리 사이트4</a></li>
+                    <li><a href="continue.html">패밀리 사이트5</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
